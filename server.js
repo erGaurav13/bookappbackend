@@ -1,7 +1,7 @@
 const express = require('express');
 const cors=require('cors');
 const connect=require("./MongoDB/connect")
-const {userRouter}= require('../backend/Routes/AuthRoutes/AuthRoutes')
+const {userRouter}= require('../backend/Routes/AuthRoutes/AuthRoutes.js')
  
 const PORT=process.env.PORT || 8080
 const app=express();
